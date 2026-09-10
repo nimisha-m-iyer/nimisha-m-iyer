@@ -21,3 +21,30 @@
 ---
 
 ### 🎯 Current Focus
+
+---
+
+### ⚡ Tech Stack
+
+![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=FFD500)
+![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=for-the-badge&logo=pytorch&logoColor=FF3CAC)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-000000?style=for-the-badge&logo=huggingface&logoColor=FFD500)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-000000?style=for-the-badge&logo=tensorflow&logoColor=FF3CAC)
+
+---
+
+<div align="center">
+
+### 🐍 Contribution Snake
+
+<img src="https://raw.githubusercontent.com/nimisha-m-iyer/nimisha-m-iyer/output/github-contribution-grid-snake.svg" width="100%"/>
+
+</div>
+
+---
+
+<div align="center">
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer)
+
+</div>
