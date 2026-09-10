@@ -26,11 +26,15 @@
 
 ### ⚡ Tech Stack
 
+### ⚡ Tech Stack
+
 ![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=FFD500)
 ![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=for-the-badge&logo=pytorch&logoColor=FF3CAC)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-000000?style=for-the-badge&logo=huggingface&logoColor=FFD500)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-000000?style=for-the-badge&logo=tensorflow&logoColor=FF3CAC)
-
+![HuggingFace](https://img.shields.io/badge/Hugging%20Face-000000?style=for-the-badge&logo=huggingface&logoColor=FFD500)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-000000?style=for-the-badge&logo=scikitlearn&logoColor=FF3CAC)
+![NLP](https://img.shields.io/badge/NLP-000000?style=for-the-badge&logoColor=FFD500)
+![LLMs](https://img.shields.io/badge/LLMs-000000?style=for-the-badge&logoColor=FF3CAC)
+![Multimodal Learning](https://img.shields.io/badge/Multimodal%20Learning-000000?style=for-the-badge&logoColor=FFD500)
 ---
 
 <div align="center">
