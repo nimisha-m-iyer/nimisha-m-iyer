@@ -26,7 +26,6 @@
 
 ### ⚡ Tech Stack
 
-### ⚡ Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=FFD500)
 ![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=for-the-badge&logo=pytorch&logoColor=FF3CAC)
