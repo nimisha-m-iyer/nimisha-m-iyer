@@ -4,65 +4,20 @@
 
 <br/>
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=FF3CAC&background=00000000&center=true&vCenter=true&width=650&lines=Loading+model+weights...;Initializing+attention+heads...;Hi%2C+I'm+Nimisha+%F0%9F%91%8B;Exploring+Transformers+%26+LLMs+%E2%9A%A1)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=FF3CAC&background=00000000&center=true&vCenter=true&width=650&lines=Loading+model+weights...;Initializing+attention+heads...;Hi%2C+I'm+Nimisha+%F0%9F%91%8B;Building+with+LLMs+%26+Transformers+%E2%9A%A1)
+
+**AI/ML Researcher**
+
+📍 *IIIT Kottayam*
+
+[![GitHub](https://img.shields.io/badge/GitHub-000000?style=flat-square&logo=github&logoColor=FFD500)](https://github.com/nimisha-m-iyer)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=flat-square&logo=linkedin&logoColor=FF3CAC)](https://www.linkedin.com/in/nimishamiyer/)
+[![Instagram](https://img.shields.io/badge/Instagram-000000?style=flat-square&logo=instagram&logoColor=FF3CAC)](https://www.instagram.com/nimishamiyer/)
+[![Email](https://img.shields.io/badge/Email-000000?style=flat-square&logo=gmail&logoColor=FFD500)](mailto:nimisha23bcd4@iiitkottayam.ac.in)
+[![Email](https://img.shields.io/badge/Personal_Email-000000?style=flat-square&logo=gmail&logoColor=FFD500)](mailto:contactnimisha.m@gmail.com)
 
 </div>
 
 ---
 
-### `>>> model.generate("who is this?")`
-
-```
-"A developer fine-tuned on curiosity,
- pretrained on code, currently in the
- attention layer of LLMs & Transformers."
-```
-
----
-
-### 🧠 Training Progress
-
-![](https://progress-bar.xyz/85/?title=Transformers&color=FF3CAC)
-![](https://progress-bar.xyz/70/?title=LLM%20Fine-tuning&color=FFD500)
-![](https://progress-bar.xyz/60/?title=Deep%20Learning&color=FF3CAC)
-![](https://progress-bar.xyz/90/?title=Python&color=FFD500)
-
----
-
-### ⚡ Tech Stack
-
-![Python](https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=FFD500)
-![PyTorch](https://img.shields.io/badge/PyTorch-000000?style=for-the-badge&logo=pytorch&logoColor=FF3CAC)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-000000?style=for-the-badge&logo=huggingface&logoColor=FFD500)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-000000?style=for-the-badge&logo=tensorflow&logoColor=FF3CAC)
-
----
-
-<div align="center">
-
-### 📊 Stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=nimisha-m-iyer&show_icons=true&theme=radical&hide_border=true&bg_color=00000000&title_color=FFD500&icon_color=FF3CAC&text_color=ffffff" width="48%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=nimisha-m-iyer&theme=radical&hide_border=true&background=00000000&ring=FF3CAC&fire=FFD500&currStreakLabel=FFD500" width="48%"/>
-
-</div>
-
----
-
-<div align="center">
-
-### 🐍 Contribution Snake
-
-<img src="https://raw.githubusercontent.com/nimisha-m-iyer/nimisha-m-iyer/output/github-contribution-grid-snake.svg" width="100%"/>
-
-*(set up via GitHub Actions — instructions below)*
-
-</div>
-
----
-
-<div align="center">
-
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer)
-
-</div>
+### 🎯 Current Focus
