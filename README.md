@@ -1,5 +1,7 @@
 ## Hi there 👋
-
+<p align="center">
+  <img src="./assets/loading.svg" width="900">
+</p>
 <!--
 **nimisha-m-iyer/nimisha-m-iyer** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
