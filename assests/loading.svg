@@ -1,0 +1,244 @@
+<svg width="900" height="420" viewBox="0 0 900 420"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="50%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="420" rx="24"
+        fill="#0D1117"/>
+
+  <!-- ================= LOADING SCREEN ================= -->
+
+  <g id="loading">
+
+    <!-- Title -->
+    <text x="450" y="80"
+          text-anchor="middle"
+          fill="url(#gradient)"
+          font-family="monospace"
+          font-size="28"
+          font-weight="bold">
+      INITIALIZING NIMISHA...
+    </text>
+
+    <!-- Progress bar background -->
+    <rect x="200" y="140"
+          width="500" height="18"
+          rx="9"
+          fill="#30363D"/>
+
+    <!-- Animated progress -->
+    <rect x="200" y="140"
+          width="0" height="18"
+          rx="9"
+          fill="url(#gradient)">
+
+      <animate
+        attributeName="width"
+        from="0"
+        to="500"
+        dur="5s"
+        fill="freeze"/>
+
+    </rect>
+
+    <!-- Percentage -->
+    <text x="450" y="195"
+          text-anchor="middle"
+          fill="#FFFFFF"
+          font-family="monospace"
+          font-size="18">
+
+      <tspan>Loading...</tspan>
+
+    </text>
+
+
+    <!-- Education -->
+    <text x="250" y="240"
+          fill="#A5B4FC"
+          font-family="monospace"
+          font-size="17">
+
+      Loading education...
+
+      <animate
+        attributeName="opacity"
+        values="0;1;1;0"
+        keyTimes="0;0.15;0.35;0.4"
+        dur="5s"
+        fill="freeze"/>
+
+    </text>
+
+
+    <!-- Research -->
+    <text x="250" y="240"
+          fill="#F472B6"
+          font-family="monospace"
+          font-size="17"
+          opacity="0">
+
+      Loading research...
+
+      <animate
+        attributeName="opacity"
+        values="0;1;1;0"
+        keyTimes="0.2;0.3;0.55;0.6"
+        dur="5s"
+        fill="freeze"/>
+
+    </text>
+
+
+    <!-- Projects -->
+    <text x="250" y="240"
+          fill="#22D3EE"
+          font-family="monospace"
+          font-size="17"
+          opacity="0">
+
+      Loading projects...
+
+      <animate
+        attributeName="opacity"
+        values="0;1;1;0"
+        keyTimes="0.4;0.5;0.7;0.75"
+        dur="5s"
+        fill="freeze"/>
+
+    </text>
+
+
+    <!-- Curiosity -->
+    <text x="250" y="240"
+          fill="#A3E635"
+          font-family="monospace"
+          font-size="17"
+          opacity="0">
+
+      Loading curiosity...
+
+      <animate
+        attributeName="opacity"
+        values="0;1;1;0"
+        keyTimes="0.6;0.7;0.9;0.95"
+        dur="5s"
+        fill="freeze"/>
+
+    </text>
+
+
+    <!-- Ready -->
+    <text x="450" y="320"
+          text-anchor="middle"
+          fill="#34D399"
+          font-family="monospace"
+          font-size="22"
+          font-weight="bold"
+          opacity="0">
+
+      MODEL READY ✓
+
+      <animate
+        attributeName="opacity"
+        values="0;0;1;1"
+        keyTimes="0;0.9;0.95;1"
+        dur="5s"
+        fill="freeze"/>
+
+    </text>
+
+  </g>
+
+
+  <!-- ================= PROFILE SCREEN ================= -->
+
+  <g id="profile" opacity="0">
+
+    <!-- Animate entire profile appearing -->
+    <animate
+      attributeName="opacity"
+      values="0;0;1"
+      keyTimes="0;0.98;1"
+      dur="6s"
+      fill="freeze"/>
+
+    <!-- Name -->
+    <text x="450" y="120"
+          text-anchor="middle"
+          fill="url(#gradient)"
+          font-family="sans-serif"
+          font-size="42"
+          font-weight="bold">
+
+      NIMISHA M IYER
+
+    </text>
+
+    <!-- Role -->
+    <text x="450" y="170"
+          text-anchor="middle"
+          fill="#FFFFFF"
+          font-family="monospace"
+          font-size="20">
+
+      AI/ML · NLP · LLM EVALUATION
+
+    </text>
+
+    <!-- Decorative line -->
+    <rect x="300" y="195"
+          width="300"
+          height="2"
+          fill="url(#gradient)"/>
+
+    <!-- Quote -->
+    <text x="450" y="250"
+          text-anchor="middle"
+          fill="#C9D1D9"
+          font-family="sans-serif"
+          font-size="18">
+
+      "Trying to understand what happens
+
+    </text>
+
+    <text x="450" y="280"
+          text-anchor="middle"
+          fill="#C9D1D9"
+          font-family="sans-serif"
+          font-size="18">
+
+      underneath the model."
+
+    </text>
+
+    <!-- Skills -->
+    <text x="450" y="340"
+          text-anchor="middle"
+          fill="#8B949E"
+          font-family="monospace"
+          font-size="15">
+
+      NLP  ·  LLMs  ·  Multimodal AI  ·  Research
+
+    </text>
+
+  </g>
+
+</svg>
