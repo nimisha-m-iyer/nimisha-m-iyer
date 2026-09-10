@@ -1,3 +1,1 @@
-<p align="center">
-  <img src="./assets/loading.svg" width="900">
-</p>
+![Nimisha AI Model](./assets/loading.svg)
