@@ -21,7 +21,13 @@
 ---
 
 ### 🎯 Current Focus
-
+current_focus = [
+"🌐 NLP & multilingual models",
+"📊 LLM evaluation",
+"🎙️ Speech & text systems",
+"🖼️ Multimodal learning",
+"🔧 Foundation model adaptation"
+]
 ---
 
 ### ⚡ Tech Stack
