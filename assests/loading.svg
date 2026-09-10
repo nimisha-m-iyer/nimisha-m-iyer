@@ -2,12 +2,17 @@
      xmlns="http://www.w3.org/2000/svg">
 
   <defs>
-    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+
+    <!-- Gradient -->
+    <linearGradient id="gradient"
+                    x1="0%" y1="0%"
+                    x2="100%" y2="0%">
       <stop offset="0%" stop-color="#8B5CF6"/>
       <stop offset="50%" stop-color="#EC4899"/>
       <stop offset="100%" stop-color="#06B6D4"/>
     </linearGradient>
 
+    <!-- Glow -->
     <filter id="glow">
       <feGaussianBlur stdDeviation="4" result="blur"/>
       <feMerge>
@@ -15,79 +20,126 @@
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
+
   </defs>
 
-  <!-- Background -->
-  <rect width="900" height="420" rx="24"
+
+  <!-- ================================================= -->
+  <!-- BACKGROUND -->
+  <!-- ================================================= -->
+
+  <rect width="900"
+        height="420"
+        rx="24"
         fill="#0D1117"/>
 
-  <!-- ================= LOADING SCREEN ================= -->
+
+  <!-- ================================================= -->
+  <!-- LOADING SCREEN -->
+  <!-- ================================================= -->
 
   <g id="loading">
 
+    <!-- Fade OUT after loading -->
+    <animate
+      attributeName="opacity"
+      values="1;1;1;0"
+      keyTimes="0;0.75;0.78;1"
+      dur="7s"
+      fill="freeze"/>
+
+
     <!-- Title -->
-    <text x="450" y="80"
+
+    <text x="450"
+          y="75"
           text-anchor="middle"
           fill="url(#gradient)"
           font-family="monospace"
           font-size="28"
           font-weight="bold">
+
       INITIALIZING NIMISHA...
+
     </text>
 
+
     <!-- Progress bar background -->
-    <rect x="200" y="140"
-          width="500" height="18"
+
+    <rect x="200"
+          y="120"
+          width="500"
+          height="18"
           rx="9"
           fill="#30363D"/>
 
-    <!-- Animated progress -->
-    <rect x="200" y="140"
-          width="0" height="18"
+
+    <!-- Progress bar -->
+
+    <rect x="200"
+          y="120"
+          width="0"
+          height="18"
           rx="9"
-          fill="url(#gradient)">
+          fill="url(#gradient)"
+          filter="url(#glow)">
 
       <animate
         attributeName="width"
         from="0"
         to="500"
-        dur="5s"
+        dur="5.5s"
         fill="freeze"/>
 
     </rect>
 
-    <!-- Percentage -->
-    <text x="450" y="195"
+
+    <!-- Loading percentage/message -->
+
+    <text x="450"
+          y="175"
           text-anchor="middle"
           fill="#FFFFFF"
           font-family="monospace"
           font-size="18">
 
-      <tspan>Loading...</tspan>
+      Loading...
 
     </text>
 
 
+    <!-- ============================================= -->
+    <!-- STAGES -->
+    <!-- ============================================= -->
+
+
     <!-- Education -->
-    <text x="250" y="240"
+
+    <text x="450"
+          y="220"
+          text-anchor="middle"
           fill="#A5B4FC"
           font-family="monospace"
-          font-size="17">
+          font-size="17"
+          opacity="0">
 
       Loading education...
 
       <animate
         attributeName="opacity"
         values="0;1;1;0"
-        keyTimes="0;0.15;0.35;0.4"
-        dur="5s"
+        keyTimes="0;0.05;0.20;0.25"
+        dur="5.5s"
         fill="freeze"/>
 
     </text>
 
 
     <!-- Research -->
-    <text x="250" y="240"
+
+    <text x="450"
+          y="220"
+          text-anchor="middle"
           fill="#F472B6"
           font-family="monospace"
           font-size="17"
@@ -98,15 +150,18 @@
       <animate
         attributeName="opacity"
         values="0;1;1;0"
-        keyTimes="0.2;0.3;0.55;0.6"
-        dur="5s"
+        keyTimes="0.20;0.25;0.40;0.45"
+        dur="5.5s"
         fill="freeze"/>
 
     </text>
 
 
     <!-- Projects -->
-    <text x="250" y="240"
+
+    <text x="450"
+          y="220"
+          text-anchor="middle"
           fill="#22D3EE"
           font-family="monospace"
           font-size="17"
@@ -117,15 +172,18 @@
       <animate
         attributeName="opacity"
         values="0;1;1;0"
-        keyTimes="0.4;0.5;0.7;0.75"
-        dur="5s"
+        keyTimes="0.40;0.45;0.60;0.65"
+        dur="5.5s"
         fill="freeze"/>
 
     </text>
 
 
     <!-- Curiosity -->
-    <text x="250" y="240"
+
+    <text x="450"
+          y="220"
+          text-anchor="middle"
           fill="#A3E635"
           font-family="monospace"
           font-size="17"
@@ -136,19 +194,21 @@
       <animate
         attributeName="opacity"
         values="0;1;1;0"
-        keyTimes="0.6;0.7;0.9;0.95"
-        dur="5s"
+        keyTimes="0.60;0.65;0.85;0.90"
+        dur="5.5s"
         fill="freeze"/>
 
     </text>
 
 
-    <!-- Ready -->
-    <text x="450" y="320"
+    <!-- Model Ready -->
+
+    <text x="450"
+          y="300"
           text-anchor="middle"
           fill="#34D399"
           font-family="monospace"
-          font-size="22"
+          font-size="23"
           font-weight="bold"
           opacity="0">
 
@@ -157,8 +217,8 @@
       <animate
         attributeName="opacity"
         values="0;0;1;1"
-        keyTimes="0;0.9;0.95;1"
-        dur="5s"
+        keyTimes="0;0.80;0.90;1"
+        dur="5.5s"
         fill="freeze"/>
 
     </text>
@@ -166,20 +226,27 @@
   </g>
 
 
-  <!-- ================= PROFILE SCREEN ================= -->
+  <!-- ================================================= -->
+  <!-- PROFILE SCREEN -->
+  <!-- ================================================= -->
 
-  <g id="profile" opacity="0">
+  <g id="profile"
+     opacity="0">
 
-    <!-- Animate entire profile appearing -->
+    <!-- Profile appears after loading disappears -->
+
     <animate
       attributeName="opacity"
-      values="0;0;1"
-      keyTimes="0;0.98;1"
-      dur="6s"
+      values="0;0;1;1"
+      keyTimes="0;0.76;0.86;1"
+      dur="7s"
       fill="freeze"/>
 
+
     <!-- Name -->
-    <text x="450" y="120"
+
+    <text x="450"
+          y="120"
           text-anchor="middle"
           fill="url(#gradient)"
           font-family="sans-serif"
@@ -190,8 +257,11 @@
 
     </text>
 
+
     <!-- Role -->
-    <text x="450" y="170"
+
+    <text x="450"
+          y="170"
           text-anchor="middle"
           fill="#FFFFFF"
           font-family="monospace"
@@ -201,14 +271,21 @@
 
     </text>
 
+
     <!-- Decorative line -->
-    <rect x="300" y="195"
+
+    <rect x="300"
+          y="195"
           width="300"
           height="2"
+          rx="1"
           fill="url(#gradient)"/>
 
+
     <!-- Quote -->
-    <text x="450" y="250"
+
+    <text x="450"
+          y="250"
           text-anchor="middle"
           fill="#C9D1D9"
           font-family="sans-serif"
@@ -218,7 +295,9 @@
 
     </text>
 
-    <text x="450" y="280"
+
+    <text x="450"
+          y="280"
           text-anchor="middle"
           fill="#C9D1D9"
           font-family="sans-serif"
@@ -228,14 +307,17 @@
 
     </text>
 
+
     <!-- Skills -->
-    <text x="450" y="340"
+
+    <text x="450"
+          y="340"
           text-anchor="middle"
           fill="#8B949E"
           font-family="monospace"
           font-size="15">
 
-      NLP  ·  LLMs  ·  Multimodal AI  ·  Research
+      NLP · LLMs · Multimodal AI · Research
 
     </text>
 
